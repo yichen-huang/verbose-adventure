@@ -1,3 +1,6 @@
+#
+# Classification
+#
 ####################################################preprocessing
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -32,6 +35,7 @@ padding_type='post'
 oov_tok = '<OOV>'
 training_size = 20000
 
+# from my understanding, in training, you need input set and labels
 training_sentences = sentences[0:training_size]
 testing_sentences = sentences[training_size:]
 
