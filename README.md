@@ -1,21 +1,21 @@
 # verbose-adventure
-I'm just following the Tensorflow NLP series
+I wanted to learn NLP, so I watched this [serie about Tensorflow](https://www.youtube.com/watch?v=fNxaJsNG3-s&list=PLQY2H8rRoyvzDbLUZkbudP-MFQZwNmU4S&index=2) about NLP.
 
-# steps
-follow the instructions on Tensorflow.org (TF) for "Install TensorFlow with pip":
-to create the virtual env (venv)
+## Setup
+I prepared a virtual environnement following the instructions on [Tensorflow](https://www.tensorflow.org/install/pip), but here is the essential.
+
+
+#### to create the virtual env:
 ```
 python3 -m venv --system-site-packages ./venv
 ```
 
-to start the venv
+#### to start the venv:
 ```
 source ./venv/bin/activate  # sh, bash, or zsh
 ```
 
-to stop:
+#### to stop:
 ```
 deactivate
 ```
-
-[link to the playlist](https://www.youtube.com/watch?v=fNxaJsNG3-s&list=PLQY2H8rRoyvzDbLUZkbudP-MFQZwNmU4S&index=2).

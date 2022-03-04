@@ -43,7 +43,7 @@ training_labels = labels[0:training_size]
 testing_labels = labels[training_size:]
 
 ####################################################
-#preprocessing + splitting the sentence into training set and test set
+# preprocessing + splitting the sentence into training set and test set
 
 tokenizer = Tokenizer(num_words= vocab_size, oov_token=oov_tok)
 tokenizer.fit_on_texts(training_sentences)
